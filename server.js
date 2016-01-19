@@ -45,7 +45,7 @@ app.get('/todos/:id', function(req, res) {
 			res.status(404).send();
 		}
 	}, function(e) {
-		res.status(500).send(e);
+		res.status(500).send();
 
 	});
 
